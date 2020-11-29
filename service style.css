@@ -1,0 +1,124 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin:0px;
+	padding:0px;
+	background-color:#161616;	
+}
+ul{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}
+nav{
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 2px;
+	font-family: calibri;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width:100%;
+	box-sizing: border-box;
+	padding: 10px 50px;
+	background-color:grey;
+	box-shadow:2px 2px 12px rgba(0,0,0,0.05); 
+	z-index: 1;
+}
+.menu{
+	display: flex;
+}
+.menu li a{
+	padding: 10px 15px;
+	color:#161616;
+	font-size: 25px;
+	
+}
+.lang{
+	color:#161616;
+}
+.logo{
+	font-size: 25px;
+	font-weight: bold;
+	color:#292929;
+	font-family: MV Boli;
+}
+.toggle{
+	display: none;
+}
+.active a,
+.menu li a:hover{
+	background-color:#161616;
+	color:#FFF!important;
+	font-weight: bold;
+	transition: all ease 0.4s;
+}
+.shadow-sketch h1{
+	font-family:Poppins;
+	font-size: 60px;
+	margin:0px;
+	letter-spacing: 3px;
+	color:#17d1ac;
+}
+.shadow-sketch p{
+	color:white;
+	text-align: justify;
+	font-family: sugoe print;
+	font-size: 25px;
+	letter-spacing: 1.5px;
+}
+.shadow-sketch button{
+	width: 180px;
+	height: 40px;
+	border-radius: 20px;
+	border: none;
+	outline: none;
+	background-color:#17d1ac;
+}
+.shadow-sketch button:hover{
+	background-color: #FFFFFF;
+	transition: all ease 0.3s;
+}
+.colored-sketch h1{
+	font-family:Poppins;
+	font-size: 60px;
+	margin:0px;
+	letter-spacing: 3px;
+	color:#17d1ac;
+}
+.colored-sketch p{
+	color:white;
+	text-align: justify;
+	font-family: sugoe print;
+	font-size: 25px;
+	letter-spacing: 1.5px;
+}
+.colored-sketch button{
+	width: 180px;
+	height: 40px;
+	border-radius: 20px;
+	border: none;
+	outline: none;
+	background-color:#17d1ac;
+}
+.colored-sketch button:hover{
+	background-color: #FFFFFF;
+	transition: all ease 0.3s;
+}
+#footer
+{
+    background: #17d1ac;
+    color: black;
+    padding: 12px;
+    padding-top: 40px;
+}
+.container-text-center p{
+	color: black;
+	font-family: Arial;
+	position: center;
+	font-weight: bold;
+}
